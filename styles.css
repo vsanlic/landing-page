@@ -204,9 +204,14 @@ body {
 }
 
 .footer {
-    display: flex;
     background-color: #1F2937;
-    flex: 0 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    color: #E5E7EB;
 }
 
 button {
