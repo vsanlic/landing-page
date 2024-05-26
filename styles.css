@@ -8,14 +8,20 @@ body {
 }
 
 .hero,
-.content-1,
-.content-2,
 .content-3,
 .footer {
     box-sizing: border-box;
     display: flex;
     padding-left: 400px;
     padding-right: 400px;
+}
+
+.content-1,
+.content-2 {
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 490px;
+    padding-right: 490px;
 }
 
 .hero {
